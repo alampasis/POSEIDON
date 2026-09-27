@@ -1,0 +1,64 @@
+{
+  "project": "Ποσειδών / Το Θηρίο",
+  "map_id": "POSEIDON_SYNTHETIC_INTERNAL_H0_V1",
+  "core_id": "POSEIDON_THIRIO_G_ONLY_V1_20260927",
+  "coordinate_frame": "POSEIDON_LOCAL_OMPHALOS_H0",
+  "coordinate_domain_internal_lon_deg": [
+    -180,
+    180
+  ],
+  "coordinate_domain_internal_lat_deg": [
+    -90,
+    90
+  ],
+  "H0_reference": "Θηρίο / Ποσειδών — μεταφερμένος Ναός Ποσειδώνος Σουνίου; H=0 by internal definition",
+  "omphalos_G": {
+    "name": "Το Θηρίο / Ποσειδών",
+    "planetographic_lat_deg": 38.228646417766356,
+    "temporary_transfer_offset_deg": 1.5168746082738342,
+    "local_omphalos_longitude_deg": 0.0,
+    "local_omphalos_H": 0
+  },
+  "raster_register": {
+    "purpose": "visual overlay only",
+    "source_native_lon_deg_at_local_H0": 1.5168746082738342,
+    "physical_body_fixed_registration_verified": false,
+    "used_to_define_omphalos_or_EA": false,
+    "texture": "synthetic sea-blue artistic texture"
+  },
+  "source": {
+    "kind": "synthetic",
+    "credit": "Generated in GitHub Actions for internal POSEIDON chart",
+    "sha256": "d81bead3b03d97e7022372adbf51daf84f9f4916f8820158b8c4fcfe9a13ed5f"
+  },
+  "validation_markers": [
+    {
+      "name": "Voyager 2 RO North",
+      "lat_deg": 62.0,
+      "lon_deg_local": 35.0,
+      "note": "illustrative local-H placement"
+    },
+    {
+      "name": "Voyager 2 RO South",
+      "lat_deg": -45.0,
+      "lon_deg_local": -40.0,
+      "note": "illustrative local-H placement"
+    }
+  ],
+  "tiles": {
+    "directory": "poseidon_ea_map/tiles",
+    "z_min": 0,
+    "z_max": 5,
+    "z0_matrix": [
+      2,
+      1
+    ],
+    "max_matrix": [
+      64,
+      32
+    ],
+    "tile_size_px": 256,
+    "format": "WebP",
+    "tile_count": 2730
+  }
+}
