@@ -1,0 +1,31 @@
+{
+  "project": "POSEIDON · THIRIO · EA24 → GΠ",
+  "core_id": "POSEIDON_THIRIO_G_ONLY_V1_20260927",
+  "reference_surface": "1 bar",
+  "equatorial_radius_km": 24764.0,
+  "polar_radius_km": 24341.0,
+  "flattening": 0.0170812469714101,
+  "quarter_meridian_km": 38567.69227621055,
+  "G_to_km": 48.269952786246,
+  "equatorial_circumference_km": 155596.80094699527,
+  "one_H_equator_km": 123.48952456110736,
+  "omphalos": {
+    "name": "Το Θηρίο / Ποσειδών",
+    "planetographic_latitude_deg": 38.228646417766356,
+    "local_longitude_deg": 0.0,
+    "V": 567.0060533004249,
+    "H": 0,
+    "temporary_transfer_offset_deg": 1.5168746082738342
+  },
+  "word_witness": {
+    "word": "ΠΟΣΕΙΔΩΝ",
+    "names_value": 3929,
+    "residue_H": 149,
+    "iota": 1111,
+    "identity": "3929 + 1111 = 5040 = 4*1260"
+  },
+  "radio_occultation_markers": [
+    {"name": "Voyager 2 RO North", "lat_deg": 62.0, "note": "illustrative local-H placement"},
+    {"name": "Voyager 2 RO South", "lat_deg": -45.0, "note": "illustrative local-H placement"}
+  ]
+}
